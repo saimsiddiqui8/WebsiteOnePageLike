@@ -1,0 +1,240 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.back-to-top {
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 3px solid red;
+}
+
+
+.hidden {
+    display: none;
+  }
+body::-webkit-scrollbar {
+    width: 15px;              
+  }
+  body::-webkit-scrollbar-track {
+    background: #383838;      
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: #bb1600;  
+    border-radius: 10px;    
+    border: 3px solid #241f21;   
+  }
+.unol {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.bold-5 {
+    font-weight: bolder !important;
+    margin-left: 10px !important;
+    padding-left: 35px !important;
+    
+}
+
+#section{
+    width: 100%;
+    height: 25rem;
+    background-image: url('./bg.jpg');
+    background-position: center center;
+    background-size: 100rem;
+    padding-top: 8rem !important;
+    color: #f8f8f8;
+
+}
+.h1{
+    font-size: 32px;
+    font-weight: 700 !important;
+}
+.h5{
+    /* margin-top: -25px !important;
+    margin-left: 100px !important; */
+    color: #bbbbbb;
+}
+
+a:hover{
+    color: #eb3656 !important;
+    transition: 300ms;
+}
+a{
+    color: #bbbbbb !important;
+}
+
+.bg-darkers{
+    background-color: #161515;
+}
+.form-control{
+    background-color: #241f21 !important;
+}
+
+.nav-item:hover{
+    border-bottom: 5px solid #eb3656 ;
+    margin: 5px;
+    font-size: 1.3rem;
+    transition: 800ms;
+
+}
+.navbar-toggler-icon{
+    background-color: #eb3656 !important;
+    border-radius: 5px;
+    width: 35px !important;
+    height: 35px !important;
+}
+.nav-link{
+    color: #bbbbbb !important;
+}
+
+.navbar-brand{
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.card-text{
+    color: #bbbbbb !important;
+}
+.card{
+    /* width: 23rem !important; */
+    --bs-card-spacer-y: -1rem !important;
+    --bs-border-color-translucent: rgba(0, 0, 0, 0) !important;
+    padding-top: 5rem;
+}
+.short-text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 5rem;
+    font-weight: 800;
+    font-size: 2rem !important;
+}
+#line1 {
+    border-top: 8px solid #bb1600;
+    width: 30%;
+    margin-left: 35%;
+    margin-top: -0.5%;
+    border-radius: 5px;
+}
+.p{
+ font-family: Arial, Helvetica, sans-serif; 
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.4;
+    color: #383838;
+    margin-top: 5rem;
+}
+
+#carouselExampleIndicators{
+    margin-left: 12%;
+    margin-top: 10rem;
+    width: 80%;
+    height: 50%;
+    padding-bottom: 5% ;
+}
+
+#sec{
+    background-color: #dddddd !important;
+}
+
+.lineTwo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 5rem;
+    font-weight: 800;
+    font-size: 2rem !important;
+}
+
+#line2 {
+    border-top: 8px solid #bb1600;
+    width: 16%;
+    margin-left: 42%;
+    margin-top: -0.5%;
+    border-radius: 5px;
+}
+
+.text-para{
+    margin: 5% !important;
+}
+.btn-secondary{
+    border-radius: 15px !important;
+    background-color: #eb3656 !important;
+    border: 1px solid #bb1600 !important;
+}
+.Magzine{
+    background-color: #bbbbbb !important;
+    padding-top: 5% !important;
+    padding-bottom: 5% !important;
+    margin-bottom: 0.5rem !important;
+}
+
+.para2{
+    padding-left: 150px; 
+    padding-top: 10%; 
+    padding-right: 70px;
+    text-align: right;
+}
+.row {
+    margin-right: calc( ()* var(--bs-gutter-x)) !important;
+}
+
+#line3 {
+    border-top: 8px solid #bb1600;
+    width: 10%;
+    margin-left: 45%;
+    margin-top: -0.5%;
+    border-radius: 5px;
+}
+.parag{
+    margin-top: 3rem !important;
+}
+.divs{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px !important;
+    margin-bottom: 2rem !important;
+    
+}
+
+.value {
+    font-size: 5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.animatedCounter{
+    background-color: #eb3656;
+    margin-top: 6rem !important;
+
+}
+#fa-solido{
+    font-size: 5rem !important;
+    /* padding-left: 7rem !important; */
+
+}
+.fa-sharp{
+    font-size: 5rem !important;
+    /* padding-left: 7rem !important;    */
+}
+
+
+.footer{
+    background-color: #383838;
+    color: #f8f8f8;
+}
+
+.f-paragraph{
+    flex-wrap: wrap;
+}
+button:hover{
+    background-color: #383838 !important;
+    transition: 1s;
+}
